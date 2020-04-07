@@ -2,12 +2,13 @@ package com.raskolnikov.DesignPattern.Observer.subject;
 
 import com.raskolnikov.DesignPattern.Observer.observer.Observer;
 
+import java.util.ArrayList;
 import java.util.List;
 
 
 public class Eshop {
 
-  private  List<Observer> customers;
+  private  List<Observer> customers=new ArrayList();
 
   private String stateMessage;
   private String subjectedItem;
